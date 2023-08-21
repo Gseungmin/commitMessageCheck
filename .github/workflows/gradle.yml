@@ -14,7 +14,7 @@ on:
 jobs:
 
   check-commit-message:
-    uses: Gseungmin/.github/template/check.yml@master
+    uses: Gseungmin/.github/.github/workflows/check.yml@master
     secrets:
       CUSTOM_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
