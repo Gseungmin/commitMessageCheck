@@ -16,7 +16,7 @@ jobs:
   check-commit-message:
     uses: Gseungmin/.github/.github/workflows/check.yml@master
     secrets:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      CUSTOM_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   build:
     name: CI
